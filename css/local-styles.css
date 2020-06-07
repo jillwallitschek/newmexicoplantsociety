@@ -1,0 +1,380 @@
+/*JW Local CSS*/
+
+/*============= basics ===============*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: "Dancing Script";
+    src: url(../fonts/DancingScript-Bold.ttf);
+}
+
+@font-face{
+    font-family: "Merriweather";
+    src: url(../fonts/Merriweather-Bold.ttf);
+}
+
+/*================== footer and nav =================*/
+
+footer, nav{
+    background-image: url(../images/bg-nav-footer.jpg);
+    background-size: cover;
+}
+
+nav img{
+    width: 46px;
+}
+
+nav a, nav a:link{
+    color:white !important;
+    font-family: 'Meriweather', 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 1.4em;
+    padding: 0 10px !important;
+}
+
+nav .active{
+    color: #d2d2d2 !important;
+}
+
+nav a:hover{
+    color: #d2d2d2 !important;    
+}
+
+footer{
+    margin-top: 15px;
+    padding: 10px 0;
+}
+
+footer p{
+    color: white;
+    margin: 0;
+}
+
+footer{
+    text-align:center;
+}
+
+footer .social{
+    text-align:center;
+}
+
+footer .location{
+    text-align: center;
+}
+
+footer .social img{
+    width: 65px;
+    padding:20px 0 0 20px;
+}
+
+@media screen and (min-width: 768px) {
+footer{
+    text-align:left;
+}
+
+footer .social{
+    text-align:right;
+}
+
+footer .location{
+    text-align: center;
+}
+
+footer .social img{
+    width: 50px;
+    padding:20px 0 0 10px;
+}
+}
+
+/*================ row 1 ====================*/
+
+.jw-row1{
+    text-align: center;
+}
+
+.jw-row1 img{
+    width: 100%;
+}
+
+.jw-row1 .jw-quote{
+    padding: 10px 60px;
+}
+
+@media screen and (min-width: 768px) {
+.jw-row1 .jw-quote{
+    padding: 10px 200px;
+} 
+}
+
+/*===================== row 1nm ===============*/
+.jw-row1nm h1{
+    font-family: 'Merriweather', 'Times New Roman', Times, serif;
+    font-size: 2.8em;
+    padding-left: 0;
+}
+
+.jw-carousel{
+    padding: 10px;
+}
+
+/*====================== row 1cp ==================*/
+.jw-row1cp h1{
+    font-family: 'Merriweather', 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.jw-row1cp h3{
+    text-align: center;
+    padding-top: 0px;
+}
+
+.jw-row1cp .jumbotron{
+    background-image: url(../images/header-scenic-960.jpg);
+    background-size: cover;
+    padding-bottom: 200px !important;
+    padding-top: 20px !important;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.jw-row1cp h3{
+    color: #fff;
+}
+
+@media screen and (min-width: 900px) {
+.jw-row1cp h3{
+    color: #23797d;
+}
+}
+
+/*====================== row 2 ==================*/
+
+.jw-row2 .col-md-3{
+    text-align: center;
+}
+
+/*====================== row 2id ==================*/
+
+.jw-row2id .col-md-4 img{
+    padding: 10px 0;
+}
+
+.define{
+    font-style: italic;
+}
+
+.jw-row2id h4, .jw-row2id h5{
+    padding-bottom: 0;
+}
+
+.jw-row2id p{
+    padding: 0;
+}
+
+.jw-row2id{
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+.jw-row2id{
+    text-align: left !important;
+}
+}
+
+/*============== row 2cp ===================*/
+.jw-row2cp h2{
+    text-align:center;
+    padding-bottom: 15px;
+}
+
+.jw-row2cp h4{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.jw-row2cp p{
+    padding-bottom: 10px;
+}
+
+/*===================== row 2nm ===============*/
+
+.jw-row2nm{
+    text-align: center;
+}
+
+.jw-row2nm h2{
+    text-align: left;
+}
+
+.jw-row2nm a, .jw-row2nm a:link{
+    font-family: 'Merriweather', 'Times New Roman', Times, serif;
+    color: #7b7b7b;
+}
+
+.jw-row2nm a:visited{
+    font-family: 'Merriweather', 'Times New Roman', Times, serif;
+    color: #7b7b7b;
+}
+
+
+/*========================= row 3 ==================*/
+
+.jw-row3{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.jw-events{
+    text-align:center;
+    background-image: url(../images/event-circle-600.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center; 
+    max-width: 350px;
+    margin: 0px auto;
+    padding: 85px 0px;
+}
+
+.jw-events p{
+    font-size: 5em;
+    color: white;
+    line-height: 1em;
+    padding-top:10px;
+}
+
+@media screen and (min-width: 768px) {
+.jw-events{
+    text-align:center;
+    background-image: url(../images/event-circle-600.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center; 
+    padding: 65px 0;
+}
+
+.jw-events p{
+    font-size: 2.0em;
+    color: white;
+    line-height: 1em;
+    padding-top:15px;
+}    
+}
+
+/*=================== row 3cp =================*/
+.jw-row3cp h4{
+    text-align: center;
+}
+
+.jw-row3cp .jw-button{
+    text-align:center;
+}
+
+/*===================== row 3nm ===============*/
+
+.jw-row3nm h3{
+    text-align: center;
+    padding-top:20px;
+}
+
+/*============== fonts ================*/
+
+h1, h2{
+    font-family: 'Dancing Script', cursive;
+}
+
+h3, h4, h6{
+    font-family: 'Merriweather', 'Times New Roman', Times, serif;
+}
+
+h5, p, ul, q{
+    font-family: 'Times New Roman', Times, serif;  
+}
+
+h3, h4, h5, h6{
+    text-transform: uppercase;
+}
+
+h1{
+    color: black;
+    font-size: 3.7em;
+}
+
+h2{
+    color: black;
+    font-size: 2.5em;
+}
+
+
+h3{
+    color: #23797d;
+    font-size: 1.5em;
+}
+
+h4{
+    font-size: 1.3em;
+    color: #7b7b7b;
+}
+
+h5{
+    color: black;
+    font-size: 1.2em;
+}
+
+h6{
+    font-size: 1.3em;
+    color: #fff;
+}
+
+p, ul{
+    color: black;
+    font-size: 1.2em;
+}
+
+q{
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+h1{
+    padding: 10px 10px 5px 10px;
+}
+
+h3{
+    padding-top: 10px;
+}
+
+h4{
+    padding: 10px 0;
+}
+
+ul{
+    margin: -10px 20px 0 20px;
+}
+
+/*===================== links ======================*/
+a, a:link, a:visited{
+    font-family: 'Times New Roman', Times, serif;   
+    color: #23797d;
+    font-size: 1em;   
+}
+
+a:hover{
+    color: #87ced2;    
+}
+
+
+/*========================= button ==================*/
+
+button{
+    text-transform: uppercase !important;
+    padding: 10px 20px !important;
+    color: #23797d !important;
+    font-size: 1.5em !important;
+    background-color: #87ced2 !important;
+    border-radius: 15px !important;
+    margin-bottom: 15px;
+    font-family:  'Merriweather', 'Times New Roman', Times, serif;
+}
